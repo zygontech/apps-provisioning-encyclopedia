@@ -11,7 +11,7 @@ if (!fs.existsSync(appsDir)) {
 
 // Read the CSV file
 const results = [];
-fs.createReadStream("../../database.csv")
+fs.createReadStream("database.csv")
   .pipe(csv())
   .on("data", (row) => {
     const fileName = row["Name"].toLowerCase().replace(/\s+/g, "-") + ".yml";
