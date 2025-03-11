@@ -45,9 +45,9 @@ If you’re like most of us, your research will quickly reveal the trap:
 - ⏳ **Manual onboarding tasks remain**
 - ❌ **No real automation for deprovisioning**
 
-### This Encyclopedia Speeds Up Your Research
+### The True ROI of Provisioning Automation
 
-This project **drastically speeds up** your research into auto-provisioning options for your apps, helping you quickly assess the **ROI** of automating provisioning.
+This project **drastically speeds up** your research into auto-provisioning options for your apps, helping you quickly assess the **true ROI** of automating provisioning for your organization.
 
 ## How It Works
 

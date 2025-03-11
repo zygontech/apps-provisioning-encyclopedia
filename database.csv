@@ -3,6 +3,7 @@ Name,Domain,Google OIDC,Microsoft OIDC,SAML,JIT,SCIM Provisioning,SCIM Deprovisi
 1Password,1password.com,FALSE,FALSE,UPGRADE,FALSE,UPGRADE,UPGRADE,FALSE,FALSE,"https://support.1password.com/sso/, https://blog.1password.com/1password-scim-bridge-explained/"
 Adjust,adjust.com,FALSE,FALSE,UPGRADE,UPGRADE,FALSE,FALSE,FALSE,FALSE,"https://help.adjust.com/en/article/sso, https://help.adjust.com/en/article/google"
 Adobe,adobe.com,TRUE,TRUE,UPGRADE,UPGRADE,UPGRADE,FALSE,UPGRADE,TRUE,"https://support.google.com/a/topic/10018788, https://helpx.adobe.com/enterprise/using/setup-sso-google.html, https://adobe-apiplatform.github.io/umapi-documentation/en/"
+Adyen,adyen.com,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,https://docs.adyen.com/account/single-sign-on/set-up-sso/
 Amazon Web Services (AWS),aws.amazon.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
 Amplitude,amplitude.com,TRUE,FALSE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,FALSE,"https://amplitude.com/docs/admin/single-sign-on/sso, https://amplitude.com/docs/admin/account-management/scim-provision, https://amplitude.com/docs/apis/analytics/scim"
 Asana,asana.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
@@ -15,6 +16,7 @@ Box,box.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.
 Canva,canva.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
 Carta,carta.com,FALSE,FALSE,UPGRADE,UPGRADE,FALSE,FALSE,FALSE,FALSE,https://www.carta.com
 Cloudflare,cloudflare.com,TRUE,FALSE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,FALSE,FALSE,"https://developers.cloudflare.com/fundamentals/setup/account/account-security/scim-setup/, https://community.cloudflare.com/t/scim-for-google-workspaces-not-supported/772581"
+Checkout,checkout.com,FALSE,FALSE,UPGRADE,UPGRADE,FALSE,FALSE,FALSE,FALSE,https://www.checkout.com/docs/business-operations/use-the-dashboard/single-sign-on
 Comeet,comeet.co,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
 CustomerIO,customer.io,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,https://docs.customer.io/accounts-and-workspaces/login-with-sso/
 Datadog,datadoghq.com,TRUE,FALSE,TRUE,TRUE,UPGRADE,UPGRADE,FALSE,FALSE,https://docs.datadoghq.com/account_management/saml/
@@ -31,6 +33,7 @@ Freshdesk,freshdesk.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,http
 Front,frontapp.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
 Fuze,fuze.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
 GitHub,github.com,FALSE,FALSE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,FALSE,https://docs.github.com/en/enterprise-cloud
+Google Cloud Platform,cloud.google.com,TRUE,FALSE,TRUE,TRUE,UNKNOWN,UNKNOWN,UNKNOWN,TRUE,https://cloud.google.com/identity-platform/docs/web/saml
 GoToMeeting,gotomeeting.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
 HackerOne,hackerone.com,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,https://docs.hackerone.com/en/articles/9010541-scim-provisioning-for-hackerone
 Honey,honey.is,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
@@ -42,6 +45,7 @@ Keeper,keepersecurity.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,ht
 Klipfolio,klipfolio.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
 Kudos,kudos.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
 Linear,linear.app,FALSE,FALSE,UPGRADE,FALSE,UPGRADE,UPGRADE,FALSE,FALSE,https://linear.app/docs/scim
+Lucca,lucca.fr,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,https://support.lucca.fr/hc/en-us/articles/360023273411-Logging-In-Using-SSO
 Lucidchart,lucidchart.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
 LumApps,lumapps.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
 Metabase,metabase.com,TRUE,FALSE,UPGRADE,UPGRADE,FALSE,FALSE,FALSE,FALSE,https://www.metabase.com
@@ -64,7 +68,7 @@ Retool,retool.com,TRUE,FALSE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,TRUE,https:
 RevenueCat,revenuecat.com,FALSE,FALSE,UPGRADE,UPGRADE,UPGRADE,FALSE,FALSE,FALSE,https://www.revenuecat.com
 RingCentral Office,ringcentral.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
 Rollbar,rollbar.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
-Salesforce,salesforce.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Salesforce,salesforce.com,FALSE,FALSE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
 SAP Cloud Platform Identity Authentication,sap.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
 ScreenSteps,screensteps.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
 Segment,segment.com,TRUE,TRUE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,FALSE,"https://segment.com/docs/segment-app/iam/scim/, https://segment.com/docs/segment-app/iam/sso/"

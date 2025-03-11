@@ -1,0 +1,25 @@
+name: Check for Duplicate Entries in database.csv
+
+on:
+  pull_request:
+    paths:
+      - "database.csv"
+
+jobs:
+  check-duplicates:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install csv-parser fs
+
+      - name: Run duplicate check script
+        run: node .github/scripts/check-duplicates.js
