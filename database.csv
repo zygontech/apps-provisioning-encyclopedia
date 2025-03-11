@@ -1,5 +1,5 @@
 Name,Domain,Google OIDC,Microsoft OIDC,SAML,JIT,SCIM Provisioning,SCIM Deprovisioning,Public Provisioning API,Compatible Google SCIM,Sources
-15Five,15five.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+15Five,15five.com,TRUE,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
 1Password,1password.com,FALSE,FALSE,UPGRADE,FALSE,UPGRADE,UPGRADE,FALSE,FALSE,"https://support.1password.com/sso/, https://blog.1password.com/1password-scim-bridge-explained/"
 Adjust,adjust.com,FALSE,FALSE,UPGRADE,UPGRADE,FALSE,FALSE,FALSE,FALSE,"https://help.adjust.com/en/article/sso, https://help.adjust.com/en/article/google"
 Adobe,adobe.com,TRUE,TRUE,UPGRADE,UPGRADE,UPGRADE,FALSE,UPGRADE,TRUE,"https://support.google.com/a/topic/10018788, https://helpx.adobe.com/enterprise/using/setup-sso-google.html, https://adobe-apiplatform.github.io/umapi-documentation/en/"
