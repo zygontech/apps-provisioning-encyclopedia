@@ -1,57 +1,103 @@
 # The Auto-Provisioning Encyclopedia
 
-This repository is an inventory of auth and provisioning methods of all public web applications (aka SaaS, Cloud Apps etc).
+This repository is an inventory of authentication and provisioning methods for all public web applications (SaaS, Cloud Apps, etc.).
 
-## Why we need this?
+## Why Do We Need This?
 
-### The dream of automatic provisioning for web apps
+### The Dream of Automatic Provisioning for Web Apps
 
-You're in IT or Security, your team is growing, you're starting to imagine a world where all your new teammates onboarding and offboarding is automated, but you are asking yourself:
+You're in IT or Security. Your team is growing. You dream of automating onboarding and offboarding, but you're asking yourself:
 
-- How do I automate provisioning and deprovisioning of accounts on the apps we use?
-- Is Okta / Jumpcloud / _Insert IdP provider here_ not made for that?
-- Do my apps support auto-provisioning? what about auto-deprovisioning?
-- Do my apps provide an API for provisioning?
-- Why is provisioning tied to SSO?
-- Do I need to pay for SSO? For provisioning?
+- How do I automate account provisioning and deprovisioning for our apps?
+- Isn't Okta, JumpCloud, or [insert IdP provider here] supposed to handle this?
+- Do our apps support **auto-provisioning**? What about **auto-deprovisioning**?
+- Do our apps provide an **API for provisioning**?
+- Why is **provisioning tied to SSO**?
+- Do we need to **pay extra for SSO or provisioning**?
 
-Guess what, everyone wonders the same thing and there is not a definitive place to know what you can do with your apps... until now!
+Guess what? Everyone wonders the same thing. But until now, there hasn't been a definitive place to check what’s possible with your apps.
 
-### It's a trap!
+### It's a Trap!
 
-If you're like most of us and you do your research, you will quickly realize that it's a trap:
+If you’re like most of us, your research will quickly reveal the trap:
 
-- Most apps don't support automatic provisioning
-- When supported, automatic provisioning mostly creates the account but does not handle role / workspace access
-- Even less apps support automatic deprovisioning
-- If you're a Google Workspace customer, you're looking at purchasing another Identity Provider to support SCIM
-- Each app vendor make you pay for SAML SSO as part of their Enterprise plan
+- ❌ **Most apps don’t support automatic provisioning.**
+- ❌ When supported, it often only creates accounts. **Permissions/workspace access still require manual steps.**
+- ❌ Even fewer apps support **automatic deprovisioning**.
+- ❌ If you use **Google Workspace**, you may need to buy another **IdP for SCIM**.
+- ❌ Many apps bundle **SAML SSO** with expensive **Enterprise plans**.
 
-The realization flow typically goes like this:
+#### The Realization Flow:
 
-- You want to do automatic provisioning
-- You purchase a new IdP (e.g. Okta, Jumpcloud)
-- You upgrade your licences on your most important apps (10-30)
-- You deploy SAML SSO on these apps
-- With Just-In-Time provisioning it automatically creates an account on most of these apps
-- To make onboarding work, you need to create onboarding tasks templates for each app to properly set permissions and workspace access
-- Automatic offboarding is nowhere to be seen
+1. You want automatic provisioning.
+2. You purchase a new IdP (e.g., Okta, JumpCloud).
+3. You **upgrade your app licenses** (10–30 apps).
+4. You **deploy SAML SSO** for these apps.
+5. **Just-In-Time (JIT) provisioning** creates accounts for most apps.
+6. To make onboarding work, you **still need manual onboarding tasks** to set permissions and access.
+7. **Automatic offboarding is non-existent.**
 
-In conclusion, you have spent cash on a new IdP ($$), spent cash upgrading your apps licences ($$$$$$), have deployed SAML SSO which was not your goal, and you still end up with most your applications provisioning not automated: manual tasks and templates for apps with incomplete provisioning or no provisioning automation, and zero solution for offboarding and closing accounts automatically.
+### The Result?
 
-### This encyclopedia speeds up your research
+- 💸 **New IdP costs**
+- 💸 **Upgraded app licenses**
+- 🔄 **SSO setup (which wasn’t your goal)**
+- ⏳ **Manual onboarding tasks remain**
+- ❌ **No real automation for deprovisioning**
 
-The goal of this encyclopedia is to speed up your research drastically when looking for automated provisioning options for your apps, thus allowing you to quickly figure out the ROI of your plan.
+### This Encyclopedia Speeds Up Your Research
 
-## How it works
+This project **drastically speeds up** your research into auto-provisioning options for your apps, helping you quickly assess the **ROI** of automating provisioning.
 
-Upon applying changes to the `database.csv` a Github Action automatically transforms the content of the CSV into individual YAML files used to generate the pages of the Encyclopedia.
+---
+
+## How It Works
+
+Each app entry follows a simple format. You can check existing references in the `database.csv` file.
+
+### **App Data Format (CSV → YAML)**
+
+Each app includes the following fields:
+
+```yaml
+Name: *any string*
+Domain: *any string*
+Google OIDC: *TRUE/FALSE/UPGRADE/UNKNOWN*
+Microsoft OIDC: *TRUE/FALSE/UPGRADE/UNKNOWN*
+SAML: *TRUE/FALSE/UPGRADE/UNKNOWN*
+JIT: *TRUE/FALSE/UPGRADE/UNKNOWN*
+SCIM Provisioning: *TRUE/FALSE/UPGRADE/UNKNOWN*
+SCIM Deprovisioning: *TRUE/FALSE/UPGRADE/UNKNOWN*
+Public Provisioning API: *TRUE/FALSE/UPGRADE/UNKNOWN*
+Compatible Google SCIM: *TRUE/FALSE*
+Sources:
+  - *any URL string*
+```
+
+> **Note:**
+> When you update database.csv, a GitHub Action automatically converts the CSV into individual YAML files, generating the Encyclopedia pages.
+
+### Understanding the Values
+
+- TRUE → The feature is available at no cost.
+- FALSE → The feature is not available at any cost.
+- UPGRADE → The feature is available but requires a license upgrade.
+- UNKNOWN → The feature is not documented.
+
+### Google SCIM Compatibility (TRUE/FALSE)
+
+Google Workspace SCIM support is limited to certain apps.
+Only the apps listed in Google’s [official documentation](https://support.google.com/a/topic/10018788) are compatible.
+This differs from other IdPs, which support any SCIM server, so we singled it out for quick access.
 
 ## Contributing
 
-Missing an app? Wrong info?
+Missing an app? Found incorrect info?
 
-Anyone can contribute! Simply create a Pull Request against the database.csv
+Anyone can contribute! 🎉
+
+- Edit database.csv and follow the format.
+- Submit a Pull Request with your changes.
 
 ## Creators and maintainers
 
