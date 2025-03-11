@@ -1,0 +1,12 @@
+Name: Purchasely
+Domain: purchasely.com
+Google OIDC: 'FALSE'
+Microsoft OIDC: 'FALSE'
+SAML: 'FALSE'
+JIT: 'FALSE'
+SCIM Provisioning: 'FALSE'
+SCIM Deprovisioning: 'FALSE'
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://purchasely.com

@@ -1,0 +1,12 @@
+Name: Retool
+Domain: retool.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'FALSE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: UPGRADE
+Public Provisioning API: UPGRADE
+Compatible Google SCIM: 'TRUE'
+Sources:
+  - https://docs.retool.com/reference/api/scim/

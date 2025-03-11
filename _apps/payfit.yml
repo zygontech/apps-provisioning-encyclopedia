@@ -1,0 +1,12 @@
+Name: PayFit
+Domain: payfit.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'FALSE'
+SAML: 'FALSE'
+JIT: 'FALSE'
+SCIM Provisioning: 'FALSE'
+SCIM Deprovisioning: 'FALSE'
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://developers.payfit.io/

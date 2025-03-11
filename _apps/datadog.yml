@@ -1,0 +1,12 @@
+Name: Datadog
+Domain: datadoghq.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'FALSE'
+SAML: 'TRUE'
+JIT: 'TRUE'
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: UPGRADE
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://docs.datadoghq.com/account_management/saml/

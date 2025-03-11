@@ -1,0 +1,13 @@
+Name: Segment
+Domain: segment.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'TRUE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: UPGRADE
+Public Provisioning API: UPGRADE
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://segment.com/docs/segment-app/iam/scim/
+  - https://segment.com/docs/segment-app/iam/sso/

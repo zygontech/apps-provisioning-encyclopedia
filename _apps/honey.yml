@@ -1,0 +1,12 @@
+Name: Honey
+Domain: honey.is
+Google OIDC: UNKNOWN
+Microsoft OIDC: UNKNOWN
+SAML: 'TRUE'
+JIT: UNKNOWN
+SCIM Provisioning: 'TRUE'
+SCIM Deprovisioning: 'TRUE'
+Public Provisioning API: UNKNOWN
+Compatible Google SCIM: 'TRUE'
+Sources:
+  - https://support.google.com/a/topic/10018788

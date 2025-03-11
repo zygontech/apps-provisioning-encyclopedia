@@ -1,0 +1,14 @@
+Name: Amplitude
+Domain: amplitude.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'FALSE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: UPGRADE
+Public Provisioning API: UPGRADE
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://amplitude.com/docs/admin/single-sign-on/sso
+  - https://amplitude.com/docs/admin/account-management/scim-provision
+  - https://amplitude.com/docs/apis/analytics/scim

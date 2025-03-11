@@ -1,0 +1,12 @@
+Name: PandaDoc
+Domain: pandadoc.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'TRUE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: UPGRADE
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://support.pandadoc.com/en/articles/9715050-sso-implementation

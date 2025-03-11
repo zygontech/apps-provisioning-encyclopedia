@@ -1,0 +1,15 @@
+Name: Figma
+Domain: figma.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'FALSE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: UPGRADE
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'TRUE'
+Sources:
+  - https://help.figma.com/hc/en-us/articles/360039957374
+  - https://support.google.com/a/topic/10018788
+  - https://help.figma.com/hc/en-us/articles/360040532333-Guide-to-SAML-SSO
+  - https://help.figma.com/hc/en-us/articles/360040047614-Authenticate-with-Google

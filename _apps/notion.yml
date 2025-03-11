@@ -1,0 +1,13 @@
+Name: Notion
+Domain: notion.so
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'TRUE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: UPGRADE
+Public Provisioning API: UPGRADE
+Compatible Google SCIM: 'TRUE'
+Sources:
+  - https://www.notion.so/help/provision-users-and-groups-with-scim
+  - https://support.google.com/a/topic/10018788

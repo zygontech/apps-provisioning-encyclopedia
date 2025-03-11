@@ -1,0 +1,13 @@
+Name: Slack
+Domain: slack.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'TRUE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: 'FALSE'
+Public Provisioning API: UPGRADE
+Compatible Google SCIM: 'TRUE'
+Sources:
+  - https://slack.com/help/articles/115004071768-Using-Single-Sign-On-(SSO)-with-Slack
+  - https://support.google.com/a/topic/10018788

@@ -1,0 +1,12 @@
+Name: GitHub
+Domain: github.com
+Google OIDC: 'FALSE'
+Microsoft OIDC: 'FALSE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: UPGRADE
+Public Provisioning API: UPGRADE
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://docs.github.com/en/enterprise-cloud

@@ -1,0 +1,13 @@
+Name: HubSpot
+Domain: hubspot.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'TRUE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: 'FALSE'
+Public Provisioning API: UPGRADE
+Compatible Google SCIM: 'TRUE'
+Sources:
+  - https://knowledge.hubspot.com/account/set-up-single-sign-on-sso
+  - https://support.google.com/a/topic/10018788

@@ -1,0 +1,12 @@
+Name: Stripe
+Domain: stripe.com
+Google OIDC: 'FALSE'
+Microsoft OIDC: 'FALSE'
+SAML: 'TRUE'
+JIT: 'TRUE'
+SCIM Provisioning: 'FALSE'
+SCIM Deprovisioning: 'FALSE'
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://docs.stripe.com/get-started/account/sso

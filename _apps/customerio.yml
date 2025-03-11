@@ -1,0 +1,12 @@
+Name: CustomerIO
+Domain: customer.io
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'TRUE'
+SAML: 'TRUE'
+JIT: 'TRUE'
+SCIM Provisioning: 'TRUE'
+SCIM Deprovisioning: 'TRUE'
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://docs.customer.io/accounts-and-workspaces/login-with-sso/

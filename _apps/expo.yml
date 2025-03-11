@@ -1,0 +1,13 @@
+Name: Expo
+Domain: expo.dev
+Google OIDC: UPGRADE
+Microsoft OIDC: UPGRADE
+SAML: 'FALSE'
+JIT: 'FALSE'
+SCIM Provisioning: 'FALSE'
+SCIM Deprovisioning: 'FALSE'
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://docs.expo.dev/accounts/sso/
+  - https://github.com/expo/fyi/blob/main/sso-setup-google-ws.md

@@ -1,0 +1,12 @@
+Name: Ashby
+Domain: ashbyhq.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'TRUE'
+SAML: 'TRUE'
+JIT: 'TRUE'
+SCIM Provisioning: 'FALSE'
+SCIM Deprovisioning: 'FALSE'
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://www.ashbyhq.com

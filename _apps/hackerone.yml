@@ -1,0 +1,12 @@
+Name: HackerOne
+Domain: hackerone.com
+Google OIDC: 'FALSE'
+Microsoft OIDC: 'FALSE'
+SAML: 'TRUE'
+JIT: 'TRUE'
+SCIM Provisioning: 'TRUE'
+SCIM Deprovisioning: 'TRUE'
+Public Provisioning API: 'TRUE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://docs.hackerone.com/en/articles/9010541-scim-provisioning-for-hackerone

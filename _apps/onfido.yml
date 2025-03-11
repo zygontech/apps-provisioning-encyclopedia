@@ -1,0 +1,12 @@
+Name: Onfido
+Domain: onfido.com
+Google OIDC: 'FALSE'
+Microsoft OIDC: 'FALSE'
+SAML: 'TRUE'
+JIT: 'FALSE'
+SCIM Provisioning: 'FALSE'
+SCIM Deprovisioning: 'FALSE'
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://public.support.onfido.com/s/article/Dasboard-Setting-up-Single-Sign-On-SSO

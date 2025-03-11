@@ -1,0 +1,12 @@
+Name: Metabase
+Domain: metabase.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'FALSE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: 'FALSE'
+SCIM Deprovisioning: 'FALSE'
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://www.metabase.com

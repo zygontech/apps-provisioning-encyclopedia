@@ -1,0 +1,13 @@
+Name: Vercel
+Domain: vercel.com
+Google OIDC: 'FALSE'
+Microsoft OIDC: 'FALSE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: 'FALSE'
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'TRUE'
+Sources:
+  - https://vercel.com/docs/directory-sync
+  - https://vercel.com/docs/saml

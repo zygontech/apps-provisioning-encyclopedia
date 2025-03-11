@@ -1,0 +1,13 @@
+Name: Cloudflare
+Domain: cloudflare.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'FALSE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: UPGRADE
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://developers.cloudflare.com/fundamentals/setup/account/account-security/scim-setup/
+  - https://community.cloudflare.com/t/scim-for-google-workspaces-not-supported/772581

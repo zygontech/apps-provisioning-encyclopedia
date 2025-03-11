@@ -1,0 +1,12 @@
+Name: RevenueCat
+Domain: revenuecat.com
+Google OIDC: 'FALSE'
+Microsoft OIDC: 'FALSE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: 'FALSE'
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://www.revenuecat.com

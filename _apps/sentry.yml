@@ -1,0 +1,13 @@
+Name: Sentry
+Domain: sentry.io
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'TRUE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: UPGRADE
+Public Provisioning API: UPGRADE
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://docs.sentry.io/api/scim/
+  - https://docs.sentry.io/organization/authentication/sso/

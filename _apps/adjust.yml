@@ -1,0 +1,13 @@
+Name: Adjust
+Domain: adjust.com
+Google OIDC: 'FALSE'
+Microsoft OIDC: 'FALSE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: 'FALSE'
+SCIM Deprovisioning: 'FALSE'
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://help.adjust.com/en/article/sso
+  - https://help.adjust.com/en/article/google

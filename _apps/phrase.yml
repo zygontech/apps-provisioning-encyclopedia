@@ -1,0 +1,13 @@
+Name: Phrase
+Domain: phrase.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'TRUE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: UPGRADE
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://support.phrase.com/hc/en-us/articles/5784117127580-Phrase-Identity-Management
+  - https://support.phrase.com/hc/en-us/articles/5793349215900-Phrase-User-Management

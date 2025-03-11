@@ -1,0 +1,12 @@
+Name: OpenAI
+Domain: openai.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'TRUE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: UPGRADE
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'TRUE'
+Sources:
+  - https://help.openai.com/en/articles/9627404-openai-chatgpt-scim-integration-faq

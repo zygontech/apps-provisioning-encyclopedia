@@ -1,0 +1,14 @@
+Name: Adobe
+Domain: adobe.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'TRUE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: 'FALSE'
+Public Provisioning API: UPGRADE
+Compatible Google SCIM: 'TRUE'
+Sources:
+  - https://support.google.com/a/topic/10018788
+  - https://helpx.adobe.com/enterprise/using/setup-sso-google.html
+  - https://adobe-apiplatform.github.io/umapi-documentation/en/
