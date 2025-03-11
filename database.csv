@@ -1,0 +1,83 @@
+Name,Domain,Google OIDC,Microsoft OIDC,SAML,JIT,SCIM Provisioning,SCIM Deprovisioning,Public Provisioning API,Compatible Google SCIM,Sources
+15Five,15five.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+1Password,1password.com,FALSE,FALSE,UPGRADE,FALSE,UPGRADE,UPGRADE,FALSE,FALSE,"https://support.1password.com/sso/, https://blog.1password.com/1password-scim-bridge-explained/"
+Adjust,adjust.com,FALSE,FALSE,UPGRADE,UPGRADE,FALSE,FALSE,FALSE,FALSE,"https://help.adjust.com/en/article/sso, https://help.adjust.com/en/article/google"
+Adobe,adobe.com,TRUE,TRUE,UPGRADE,UPGRADE,UPGRADE,FALSE,UPGRADE,TRUE,"https://support.google.com/a/topic/10018788, https://helpx.adobe.com/enterprise/using/setup-sso-google.html, https://adobe-apiplatform.github.io/umapi-documentation/en/"
+Amazon Web Services (AWS),aws.amazon.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Amplitude,amplitude.com,TRUE,FALSE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,FALSE,"https://amplitude.com/docs/admin/single-sign-on/sso, https://amplitude.com/docs/admin/account-management/scim-provision, https://amplitude.com/docs/apis/analytics/scim"
+Asana,asana.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Asana,asana.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Ashby,ashbyhq.com,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,https://www.ashbyhq.com
+Atlassian,atlassian.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Bonusly,bonus.ly,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Boomi,boomi.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Box,box.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Canva,canva.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Carta,carta.com,FALSE,FALSE,UPGRADE,UPGRADE,FALSE,FALSE,FALSE,FALSE,https://www.carta.com
+Cloudflare,cloudflare.com,TRUE,FALSE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,FALSE,FALSE,"https://developers.cloudflare.com/fundamentals/setup/account/account-security/scim-setup/, https://community.cloudflare.com/t/scim-for-google-workspaces-not-supported/772581"
+Comeet,comeet.co,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+CustomerIO,customer.io,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,https://docs.customer.io/accounts-and-workspaces/login-with-sso/
+Datadog,datadoghq.com,TRUE,FALSE,TRUE,TRUE,UPGRADE,UPGRADE,FALSE,FALSE,https://docs.datadoghq.com/account_management/saml/
+Deskpro,deskpro.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Dialpad,dialpad.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Docusign,docusign.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Dropbox,dropbox.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Emburse,emburse.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Evernote,evernote.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Expo,expo.dev,UPGRADE,UPGRADE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,"https://docs.expo.dev/accounts/sso/, https://github.com/expo/fyi/blob/main/sso-setup-google-ws.md"
+Figma,figma.com,TRUE,FALSE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,FALSE,TRUE,"https://help.figma.com/hc/en-us/articles/360039957374, https://support.google.com/a/topic/10018788, https://help.figma.com/hc/en-us/articles/360040532333-Guide-to-SAML-SSO, https://help.figma.com/hc/en-us/articles/360040047614-Authenticate-with-Google"
+Foodee,foodee.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Freshdesk,freshdesk.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Front,frontapp.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Fuze,fuze.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+GitHub,github.com,FALSE,FALSE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,FALSE,https://docs.github.com/en/enterprise-cloud
+GoToMeeting,gotomeeting.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+HackerOne,hackerone.com,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,https://docs.hackerone.com/en/articles/9010541-scim-provisioning-for-hackerone
+Honey,honey.is,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Hootsuite,hootsuite.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+HubSpot,hubspot.com,TRUE,TRUE,UPGRADE,UPGRADE,UPGRADE,FALSE,UPGRADE,TRUE,"https://knowledge.hubspot.com/account/set-up-single-sign-on-sso, https://support.google.com/a/topic/10018788"
+Huddle,huddle.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Intercom,intercom.com,TRUE,FALSE,UPGRADE,UPGRADE,UPGRADE,FALSE,FALSE,FALSE,https://www.intercom.com/help/en/articles/3974587-integrate-with-an-identity-provider-and-log-in-with-saml-sso
+Keeper,keepersecurity.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Klipfolio,klipfolio.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Kudos,kudos.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Linear,linear.app,FALSE,FALSE,UPGRADE,FALSE,UPGRADE,UPGRADE,FALSE,FALSE,https://linear.app/docs/scim
+Lucidchart,lucidchart.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+LumApps,lumapps.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Metabase,metabase.com,TRUE,FALSE,UPGRADE,UPGRADE,FALSE,FALSE,FALSE,FALSE,https://www.metabase.com
+Microsoft Office 365,office.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Miro,miro.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Monday,monday.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Netskope,netskope.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Notion,notion.so,TRUE,TRUE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,TRUE,"https://www.notion.so/help/provision-users-and-groups-with-scim, https://support.google.com/a/topic/10018788"
+OfficeSpace,officespacesoftware.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Onfido,onfido.com,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,https://public.support.onfido.com/s/article/Dasboard-Setting-up-Single-Sign-On-SSO
+OpenAI,openai.com,TRUE,TRUE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,FALSE,TRUE,https://help.openai.com/en/articles/9627404-openai-chatgpt-scim-integration-faq
+PagerDuty,pagerduty.com,FALSE,FALSE,UPGRADE,UPGRADE,FALSE,FALSE,FALSE,FALSE,https://support.pagerduty.com/main/docs/sso
+PandaDoc,pandadoc.com,TRUE,TRUE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,FALSE,FALSE,https://support.pandadoc.com/en/articles/9715050-sso-implementation
+PayFit,payfit.com,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://developers.payfit.io/
+Phrase,phrase.com,TRUE,TRUE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,FALSE,FALSE,"https://support.phrase.com/hc/en-us/articles/5784117127580-Phrase-Identity-Management, https://support.phrase.com/hc/en-us/articles/5793349215900-Phrase-User-Management"
+Proxyclick,proxyclick.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Purchasely,purchasely.com,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,https://purchasely.com
+RECOG,recog.net,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Retool,retool.com,TRUE,FALSE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,TRUE,https://docs.retool.com/reference/api/scim/
+RevenueCat,revenuecat.com,FALSE,FALSE,UPGRADE,UPGRADE,UPGRADE,FALSE,FALSE,FALSE,https://www.revenuecat.com
+RingCentral Office,ringcentral.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Rollbar,rollbar.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Salesforce,salesforce.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+SAP Cloud Platform Identity Authentication,sap.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+ScreenSteps,screensteps.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Segment,segment.com,TRUE,TRUE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,FALSE,"https://segment.com/docs/segment-app/iam/scim/, https://segment.com/docs/segment-app/iam/sso/"
+Sentry,sentry.io,TRUE,TRUE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,UPGRADE,FALSE,"https://docs.sentry.io/api/scim/, https://docs.sentry.io/organization/authentication/sso/"
+Slack,slack.com,TRUE,TRUE,UPGRADE,UPGRADE,UPGRADE,FALSE,UPGRADE,TRUE,"https://slack.com/help/articles/115004071768-Using-Single-Sign-On-(SSO)-with-Slack, https://support.google.com/a/topic/10018788"
+Smartsheet,smartsheet.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+SpaceIQ,spaceiq.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Spoke,askspoke.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Stripe,stripe.com,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,https://docs.stripe.com/get-started/account/sso
+Sugar,sugarcrm.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+ThousandEyes,thousandeyes.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Trello,trello.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Vercel,vercel.com,FALSE,FALSE,UPGRADE,UPGRADE,UPGRADE,FALSE,FALSE,TRUE,"https://vercel.com/docs/directory-sync, https://vercel.com/docs/saml"
+Workplace from Facebook,workplace.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Zendesk,zendesk.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788
+Zscaler,zscaler.com,UNKNOWN,UNKNOWN,TRUE,UNKNOWN,TRUE,TRUE,UNKNOWN,TRUE,https://support.google.com/a/topic/10018788

@@ -1,0 +1,34 @@
+name: Generate YAML Files
+
+on:
+  push:
+    paths:
+      - "database.csv"
+  workflow_dispatch:
+
+jobs:
+  generate-yaml:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install csv-parser js-yaml fs path
+
+      - name: Run script to generate YAML files
+        run: node .github/scripts/generate-yaml.js
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add _apps/
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update YAML files from database.csv"
+          git push
