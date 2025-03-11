@@ -49,8 +49,6 @@ If you’re like most of us, your research will quickly reveal the trap:
 
 This project **drastically speeds up** your research into auto-provisioning options for your apps, helping you quickly assess the **ROI** of automating provisioning.
 
----
-
 ## How It Works
 
 Each app entry follows a simple format. You can check existing references in the `database.csv` file.
@@ -79,10 +77,10 @@ Sources:
 
 ### Understanding the Values
 
-- TRUE → The feature is available at no cost.
-- FALSE → The feature is not available at any cost.
-- UPGRADE → The feature is available but requires a license upgrade.
-- UNKNOWN → The feature is not documented.
+- **TRUE** → The feature is available **at no cost**.
+- **FALSE** → The feature is not available **at any cost**.
+- **UPGRADE** → The feature is available but **requires a license upgrade**.
+- **UNKNOWN** → The feature is **not documented**.
 
 ### Google SCIM Compatibility (TRUE/FALSE)
 
@@ -106,5 +104,6 @@ This project has been created by the team at Zygon. Feel free to reach out if yo
 ### About Zygon
 
 ![Zygon Logo](https://zygon-public-resources.s3.eu-west-3.amazonaws.com/zygon_logo_350_82.png "Zygon Logo")
+
 [Zygon](https://www.zygon.tech/) was founded in 2023 to make identity governance a breeze for IT and security professionals struggling with SaaS Sprawl and compliance.
 Modern IT and Security teams use Zygon to govern cloud identities at scale. Access reviews, account (de)provisioning and overall identity lifecycle operations are automated for all their applications.
