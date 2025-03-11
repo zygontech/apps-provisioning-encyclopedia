@@ -1,0 +1,12 @@
+Name: Google Cloud Platform
+Domain: cloud.google.com
+Google OIDC: 'TRUE'
+Microsoft OIDC: 'FALSE'
+SAML: 'TRUE'
+JIT: 'TRUE'
+SCIM Provisioning: UNKNOWN
+SCIM Deprovisioning: UNKNOWN
+Public Provisioning API: UNKNOWN
+Compatible Google SCIM: 'TRUE'
+Sources:
+  - https://cloud.google.com/identity-platform/docs/web/saml

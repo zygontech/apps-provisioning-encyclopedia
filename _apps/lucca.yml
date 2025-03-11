@@ -1,0 +1,12 @@
+Name: Lucca
+Domain: lucca.fr
+Google OIDC: 'FALSE'
+Microsoft OIDC: 'FALSE'
+SAML: 'TRUE'
+JIT: 'TRUE'
+SCIM Provisioning: 'FALSE'
+SCIM Deprovisioning: 'FALSE'
+Public Provisioning API: 'FALSE'
+Compatible Google SCIM: 'FALSE'
+Sources:
+  - https://support.lucca.fr/hc/en-us/articles/360023273411-Logging-In-Using-SSO

@@ -1,11 +1,11 @@
 Name: Salesforce
 Domain: salesforce.com
-Google OIDC: UNKNOWN
-Microsoft OIDC: UNKNOWN
-SAML: 'TRUE'
-JIT: UNKNOWN
-SCIM Provisioning: 'TRUE'
-SCIM Deprovisioning: 'TRUE'
+Google OIDC: 'FALSE'
+Microsoft OIDC: 'FALSE'
+SAML: UPGRADE
+JIT: UPGRADE
+SCIM Provisioning: UPGRADE
+SCIM Deprovisioning: UPGRADE
 Public Provisioning API: UNKNOWN
 Compatible Google SCIM: 'TRUE'
 Sources:
