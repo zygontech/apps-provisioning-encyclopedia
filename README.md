@@ -1,4 +1,4 @@
-# The Auto-Provisioning Encyclopedia
+# The Auto-Provisioning Atlas
 
 This repository is an inventory of authentication and provisioning methods for all public web applications (SaaS, Cloud Apps, etc.).
 
