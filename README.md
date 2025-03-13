@@ -1,5 +1,7 @@
 # The Auto-Provisioning Atlas
 
+![The Auto-Provisioning Atlas](https://zygon-public-resources.s3.eu-west-3.amazonaws.com/auto_provisioning_atlas.png)
+
 This repository is an inventory of authentication and provisioning methods for all public web applications (SaaS, Cloud Apps, etc.).
 
 ## Why Do We Need This?
